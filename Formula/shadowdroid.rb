@@ -5,21 +5,21 @@ class Shadowdroid < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/shadowdroid-dev/shadowdroid/releases/download/v2.3.0/shadowdroid-aarch64-apple-darwin.tar.gz"
-      sha256 "45bd1215654e2c625d4177bdfbe96449daf31c4353769f8305b24fa0fae53a9d"
+      url "https://github.com/shadowdroid-dev/shadowdroid/releases/download/v2.4.0/shadowdroid-aarch64-apple-darwin.tar.gz"
+      sha256 "7830d5d9936a7e43a5f696b80d3109f3178b6c556396dca69e1ad7fae129a1ae"
     else
-      url "https://github.com/shadowdroid-dev/shadowdroid/releases/download/v2.3.0/shadowdroid-x86_64-apple-darwin.tar.gz"
-      sha256 "ea04ff10016960b516bab0c9229d37a83e1685cf9d6e93bc990a3e0e7a810c6f"
+      url "https://github.com/shadowdroid-dev/shadowdroid/releases/download/v2.4.0/shadowdroid-x86_64-apple-darwin.tar.gz"
+      sha256 "03ba7404d6446446c15aae376df732e8877df8a77d5b4d573c659178a68987dc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/shadowdroid-dev/shadowdroid/releases/download/v2.3.0/shadowdroid-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fdc614122f7893729a3caa1429966f418b43864bcb304114a624889c04ab44e6"
+      url "https://github.com/shadowdroid-dev/shadowdroid/releases/download/v2.4.0/shadowdroid-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "05e96a8e8882f4173f522a1a6150541625a59e3cbb35ad19722b7feddc71a9c8"
     else
-      url "https://github.com/shadowdroid-dev/shadowdroid/releases/download/v2.3.0/shadowdroid-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1355db1399efdae8565a869c9562c8e3aeeca4bce7798401061684c5ee91df6d"
+      url "https://github.com/shadowdroid-dev/shadowdroid/releases/download/v2.4.0/shadowdroid-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0e838016c9d52fe72dafe78d863a45aabcf240e75a2aa998371a6b1e65c32cb3"
     end
   end
 
